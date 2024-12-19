@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: "Cairo", sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+  }
+  
+  h5 {
+    color: #f8f9fa;
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+  }
+  
+  p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .img-fluid {
+    border-radius: 10px;
+  }
+  
+  a i {
+    color: #f8f9fa;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p, li {
+      font-size: 0.9rem;
+      background-color: #5d80f2e5;
+    }
+  }

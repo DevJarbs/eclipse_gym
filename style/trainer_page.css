@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.feedback{
+    color: #fff;
+    text-decoration: none;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-family: "Cairo",sans-serif;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "League Spartan",sans-serif;
+    font-size: 40px;
+}
+.card-title a{
+    color: #000;
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 115px;
+    font-family: "Cairo",sans-serif;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    font-family: "Cairo",sans-serif;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+@media (max-width: 1024px){
+    .feedback{
+        position: absolute;
+        left: 53%;
+        font-size: 12px;
+    }
+    .link{
+        position: absolute;
+        left: 70%;
+        font-size: 12px;
+    }
+}
