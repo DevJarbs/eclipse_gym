@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e525f445a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Cairo:wght@200..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   </head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="img/logo.png" alt="Eclipse Fitness Logo">
+            </div>
+            <h1>Sign In</h1>
+            <form action="trainer_login.php" method="POST" name="trainerLogInForm" id="trainerLogInForm">
+                <div class="input-group">
+                    <input type="text" name="trainer_username" id="trainer_username" placeholder="Username" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="trainer_password" id="trainer_password" placeholder="Password" required>
+                </div><br>
+                <button type="submit" class="login-button">Log In</button><br><br>
+                <div class="google-login">
+                <button type="button" class="btn d-flex align-items-center justify-content-center " id="google" onclick="window.location.href='google-login.php'">
+                <img src="img/google.png" alt="Google Logo" style="width: 20px; margin-right: 10px;"> 
+                        Sign in with Google</button>
+                </div>
+                <h5>Don't Have an Account? <a href="trainer_signup.html">Sign up</a></h5>
+            </form>
+        </div>
+    </div>
+    <script src="JS/trainer_login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

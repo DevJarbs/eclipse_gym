@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e525f445a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Cairo:wght@200..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ </head>
+<body>
+    <div class="container">
+        <div id="form" class="right-side">
+            <img src="img/logo.png" alt="">
+            <h1 id="signup">TRAINER SIGN UP</h1>
+            <form name="form">
+                <div class="input-group">
+                    <input type="text" id="trainer_username" name="trainer_username" placeholder="Enter Username" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="trainer_password" name="trainer_password" placeholder="Create Password" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="trainer_confirmpass" name="trainer_confirmpass" placeholder="Re-type Password" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="trainer_email" name="trainer_email" placeholder="Enter Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="mobile_num" name="mobile_num" placeholder="Mobile Number" required>
+                </div>
+                <button type="submit" name="submit" class="signup">Sign Up</button>
+            </form>
+            <div class="google-login">
+                <button type="button" class="btn mb-3 d-flex align-items-center justify-content-center" id="google" onclick="window.location.href='google-login.php'">
+                    <img src="img/google.png" alt="Google Logo" style="width: 20px; margin-right: 10px;"> 
+                    Sign in with Google
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="JS/trainer_signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
